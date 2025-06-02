@@ -10,7 +10,7 @@ let value = 10;
 const interval = setInterval(() => {
     console.log(value)
     value--;
-    if (value <= 0) {
+    if (value < 0) {
         console.log("Fim da contagem!");
         clearInterval(interval); // Para o setInterval quando value chega a 0
     }
