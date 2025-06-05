@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "build": "webpack ./9-Bundlers/src/js/index.js",
+        "build": "webpack",
         "dev": "babel ./8-Compiladores/script-2.js --watch --out-dir ./dist",
         "server": "json-server server.json"
     },
