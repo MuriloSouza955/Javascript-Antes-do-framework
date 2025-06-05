@@ -3,7 +3,7 @@ class User {
         this.email = email;
     }
     sendMessage() {
-        console.log('Mensagem enviada para: ', this.email);
+        console.log('Mensagem enviada para: ' + this.email);
     }
 }
 
