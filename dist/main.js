@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   title: () => (/* binding */ title)\n/* harmony export */ });\nfunction title(titlke){\n    const element = document.createElement('h1');\n    element.textContent = titlke;\n\n    document.body.appendChild(element);\n}\n\n//# sourceURL=webpack:///./9-Bundlers/src/js/components.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   title: () => (/* binding */ title)\n/* harmony export */ });\nfunction title(titlke) {\n  const element = document.createElement('h1');\n  element.textContent = titlke;\n  document.body.appendChild(element);\n}\n\n//# sourceURL=webpack:///./9-Bundlers/src/js/components.js?");
 
 /***/ }),
 
@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/styles.css */ \"./9-Bundlers/src/css/styles.css\");\n/* harmony import */ var _components_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components.js */ \"./9-Bundlers/src/js/components.js\");\n\n\n\n(0,_components_js__WEBPACK_IMPORTED_MODULE_1__.title)('Hello World');\n\n//# sourceURL=webpack:///./9-Bundlers/src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/styles.css */ \"./9-Bundlers/src/css/styles.css\");\n/* harmony import */ var _components_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components.js */ \"./9-Bundlers/src/js/components.js\");\n\n\n(0,_components_js__WEBPACK_IMPORTED_MODULE_1__.title)('Hello World');\n\n//# sourceURL=webpack:///./9-Bundlers/src/js/index.js?");
 
 /***/ }),
 
