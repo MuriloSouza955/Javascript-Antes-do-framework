@@ -8,6 +8,13 @@ module.exports = {
     path: require("path").resolve(__dirname, "dist"),
   },
   mode: "development",
+  devServer: {
+    static: {
+        directory: path.join(__dirname, "dist", "index.html"),
+    },
+    port: 3000,
+    open: true,  
+  },
   plugins: [new HTMLwebpackPlugin()],
   module: {
     rules: [
